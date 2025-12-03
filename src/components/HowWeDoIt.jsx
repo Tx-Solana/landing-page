@@ -32,13 +32,13 @@ const HowWeDoIt = () => {
         </motion.div>
 
         <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 items-start mb-8">
+          <div className="grid lg:grid-cols-5 gap-8 items-start mb-8">
             {/* Text Content */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="space-y-8"
+              className="lg:col-span-2 space-y-8"
             >
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
@@ -88,7 +88,7 @@ const HowWeDoIt = () => {
               initial={{ opacity: 0, x: 30 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="relative"
+              className="lg:col-span-3 relative"
             >
               <div className="relative rounded-2xl overflow-hidden border-2 border-primary-500/30 shadow-2xl shadow-primary-500/20 aspect-video">
                 <iframe

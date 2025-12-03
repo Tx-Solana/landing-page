@@ -2,12 +2,20 @@ import { useState, useEffect, useRef } from 'react';
 
 export const useInView = (options = {}) => {
   const [isInView, setIsInView] = useState(false);
+  const [hasBeenInView, setHasBeenInView] = useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
-      setIsInView(entry.isIntersecting);
-    }, options);
+      if (entry.isIntersecting && !hasBeenInView) {
+        setIsInView(true);
+        setHasBeenInView(true);
+      }
+    }, {
+      threshold: options.threshold || 0.05,
+      rootMargin: options.rootMargin || '0px 0px -100px 0px',
+      ...options
+    });
 
     const currentRef = ref.current;
     if (currentRef) {
@@ -19,7 +27,7 @@ export const useInView = (options = {}) => {
         observer.unobserve(currentRef);
       }
     };
-  }, [options]);
+  }, [options, hasBeenInView]);
 
   return [ref, isInView];
 };
