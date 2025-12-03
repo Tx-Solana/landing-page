@@ -1,0 +1,14 @@
+# Team Member Images
+
+Place team member profile photos here.
+
+## Guidelines:
+- Format: JPG or PNG
+- Size: 192x192px (optimized)
+- Naming: kebab-case (e.g., laurent-koehler.jpg, michael-tse.jpg)
+- Usage: Update the `teamMembers` array in `src/components/Team.jsx`
+
+## Example:
+```jsx
+image: '/images/team/laurent-koehler.jpg'
+```
