@@ -29,32 +29,23 @@ const WhyWeDoIt = () => {
             className="space-y-6"
           >
             <div className="prose prose-lg max-w-none">
-              <p className="text-gray-300 leading-relaxed">
-                TX offers an all-in-one ticketing solution tailored for performers, event promoters,
-                and ticketing companies. By tokenizing tickets, TX effectively addresses challenges
-                like <strong className="text-white">scalping and fraud</strong> across both primary and secondary sales.
+              <p className="text-gray-400 leading-relaxed">
+                TX offers an <strong className="text-primary-500">all-in-one ticketing solution</strong> tailored for performers, event promoters, and ticketing companies. By tokenizing tickets, TX effectively addresses challenges like scalping and fraud across both primary and secondary sales.
               </p>
-              <p className="text-gray-300 leading-relaxed">
-                It also integrates unique features designed to enhance user engagement, providing
-                an elevated and seamless experience.
+              <p className="text-gray-400 leading-relaxed">
+                It also integrates unique features designed to enhance user engagement, providing an elevated and seamless experience.
               </p>
-              <p className="text-gray-300 leading-relaxed">
-                The core concept is to establish a <strong className="text-white">collaborative system</strong> that
-                actively engages all stakeholders and rewards their contributions to ensure their
-                sustained participation.
+              <p className="text-gray-400 leading-relaxed">
+                The core concept is to establish a collaborative system that actively engages all stakeholders and rewards their contributions to ensure their sustained participation.
               </p>
-              <p className="text-gray-300 leading-relaxed">
-                Audiences, ticketing companies, promoters, and performers are incentivized to
-                interact transparently and securely, creating mutual benefits and fostering a
-                thriving ecosystem.
+              <p className="text-gray-400 leading-relaxed">
+                Audiences, ticketing companies, promoters, and performers are incentivized to <strong className="text-primary-500">interact transparently and securely</strong>, creating mutual benefits and fostering a thriving ecosystem.
               </p>
             </div>
 
             <div className="bg-dark-800 border-l-4 border-primary-500 p-6 rounded-r-lg">
-              <p className="text-gray-200 font-medium italic">
-                TX is committed to fostering a community-driven approach to ticketing, redefining
-                access to live entertainment through principles and mechanisms that encourage
-                collaboration among all stakeholders.
+              <p className="text-gray-400 font-medium italic">
+                TX is committed to fostering a <strong className="text-primary-500">community-driven approach</strong> to ticketing, redefining access to live entertainment through principles and mechanisms that encourage collaboration among all stakeholders.
               </p>
             </div>
           </motion.div>

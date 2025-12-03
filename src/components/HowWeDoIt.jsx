@@ -48,10 +48,8 @@ const HowWeDoIt = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-white">Web 3.0 Technology</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    TX is a Web 3.0 solution, powered by blockchain technology. Web 3.0 is the next
-                    generation of Internet where users can own digital assets and have their custody
-                    unlike in the Web we know and use now.
+                  <p className="text-gray-400 leading-relaxed">
+                    <strong className="text-primary-500">TX</strong> is a Web 3.0 solution, powered by blockchain technology. <strong className="text-primary-500">Web 3.0</strong> is the next generation of Internet where users can own digital assets and have their custody unlike in the Web we know and use now.
                   </p>
                 </div>
               </div>
@@ -64,9 +62,8 @@ const HowWeDoIt = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-white">Blockchain Innovation</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    It is possible thanks to the blockchain technology that allows creating tickets in
-                    the form of unique digital assets, which cannot be replicated nor modified.
+                  <p className="text-gray-400 leading-relaxed">
+                    It is possible thanks to the <strong className="text-primary-500">blockchain</strong> technology that allows creating tickets in the form of unique digital assets, which cannot be replicated nor modified.
                   </p>
                 </div>
               </div>
@@ -79,10 +76,8 @@ const HowWeDoIt = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-white">Safe & Transparent</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    TX is committed to offer a safe space, where buying and selling tickets is
-                    transparent and secured, guaranteeing trust, authenticity and fairness for the
-                    users.
+                  <p className="text-gray-400 leading-relaxed">
+                    TX is committed to offer a safe space, where buying and selling tickets is <strong className="text-primary-500">transparent and secured</strong>, guaranteeing trust, authenticity and fairness for the users.
                   </p>
                 </div>
               </div>

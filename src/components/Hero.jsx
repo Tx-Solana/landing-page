@@ -24,8 +24,7 @@ const Hero = () => {
               <span className="text-primary-500">Ticketing</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
-              An all-in-one Web 3.0 ticketing solution powered by blockchain technology,
-              designed for performers, event promoters, and ticketing companies
+              An <strong className="text-primary-500">all-in-one Web 3.0 ticketing</strong> solution powered by <strong className="text-primary-500">blockchain</strong> technology, designed for <strong className="text-primary-500">performers, event promoters, and ticketing companies</strong>
             </p>
           </motion.div>
 
