@@ -12,21 +12,21 @@ const Team = () => {
       role: 'CEO',
       image:
         'https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F5fdd605ef101e574db574be5504f3f7f.cdn.bubble.io%2Ff1733828876111x352210619160877600%2FProfile%2520pic%2520LK-modified.jpg?w=192&h=192&auto=enhance&dpr=1&fit=facearea&facepad=5&q=75',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/lkoehler81/',
     },
     {
       name: 'Michael Tse',
       role: 'CTO',
       image:
         'https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F5fdd605ef101e574db574be5504f3f7f.cdn.bubble.io%2Ff1733828890109x254207728090068740%2FProfile%2520pic%2520MT-modified.jpg?w=192&h=192&auto=enhance&dpr=1&fit=facearea&facepad=5&q=75',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/man-kit-michael-tse-4013a5176/',
     },
     {
       name: 'Nsikan Friday',
       role: 'CMO',
       image:
         'https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F5fdd605ef101e574db574be5504f3f7f.cdn.bubble.io%2Ff1733715129063x145688199940811500%2Fnsikan-modified.jfif?w=192&h=192&auto=enhance&dpr=1&fit=facearea&facepad=5&q=75',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/nsikan-friday-757397b1/',
     },
   ];
 
