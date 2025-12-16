@@ -33,8 +33,8 @@ const Header = () => {
       <nav className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="text-2xl font-bold">
-            <span className="text-white">TX</span>
+          <a href="#" className="text-2xl font-bold text-primary-500">
+            TX
           </a>
 
           {/* Desktop Navigation */}

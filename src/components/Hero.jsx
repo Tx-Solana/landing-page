@@ -23,8 +23,8 @@ const Hero = () => {
               Redefining{' '}
               <span className="text-primary-500">Ticketing</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
-              An <strong className="text-primary-500">all-in-one Web 3.0 ticketing</strong> solution powered by <strong className="text-primary-500">blockchain</strong> technology, designed for <strong className="text-primary-500">performers, event promoters, and ticketing companies</strong>
+            <p className="text-2xl md:text-3xl text-gray-300 font-semibold mb-4">
+              Seamless, Secure, and Fair
             </p>
           </motion.div>
 
