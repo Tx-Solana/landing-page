@@ -10,19 +10,19 @@ const Team = () => {
     {
       name: 'Laurent Koehler',
       role: 'CEO',
-      image: '/images/team/laurent.jpg',
+      image: './images/team/laurent.jpg',
       linkedin: 'https://www.linkedin.com/in/lkoehler81/',
     },
     {
       name: 'Michael Tse',
       role: 'CTO',
-      image: '/images/team/michael.jpg',
+      image: './images/team/michael.jpg',
       linkedin: 'https://www.linkedin.com/in/man-kit-michael-tse-4013a5176/',
     },
     {
       name: 'Nsikan Friday',
       role: 'CMO',
-      image: '/images/team/nsikan.jfif',
+      image: './images/team/nsikan.jfif',
       linkedin: 'https://www.linkedin.com/in/nsikan-friday-757397b1/',
     },
   ];

@@ -59,14 +59,14 @@ const WhyWeDoIt = () => {
             <div className="grid grid-cols-1 gap-6">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary-500/20 border-2 border-primary-500/30 transform hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/images/TX_home.webp"
+                  src="./images/TX_home.webp"
                   alt="TX Home Platform"
                   className="w-full h-auto"
                 />
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary-500/20 border-2 border-primary-500/30 transform hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/images/TX_Tickets.webp"
+                  src="./images/TX_Tickets.webp"
                   alt="TX Tickets"
                   className="w-full h-auto"
                 />
