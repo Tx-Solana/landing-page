@@ -49,7 +49,7 @@ npm run preview      # Preview production build locally
 ```
 
 ### Deployment Configuration
-- **Base path**: `/landing-page/` configured in `vite.config.js` for GitHub Pages deployment
+- **Base path**: `` configured in `vite.config.js` for GitHub Pages deployment
 - Server configured for dev container: `host: '0.0.0.0', usePolling: true`
 
 ### Key Dependencies
