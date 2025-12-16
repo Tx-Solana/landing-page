@@ -52,7 +52,7 @@ const Contact = () => {
               <span>Book a Demo</span>
             </a>
             <a
-              href="mailto:info@txticketing.com"
+              href="mailto:hello@txticketing.com"
               className="btn-secondary flex items-center gap-3 min-w-[200px] justify-center"
             >
               <FaEnvelope size={20} />
