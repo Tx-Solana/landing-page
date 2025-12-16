@@ -99,7 +99,7 @@ const teamMembers = [
 - **Current**: External CDN URLs (Bubble.io CDN)
 - **Local storage**: Add images to `public/images/team/` directory
 - **Naming convention**: Use kebab-case: `laurent-koehler.jpg`, `michael-tse.jpg`
-- **Update path**: Change `image: '/images/team/laurent-koehler.jpg'` in `teamMembers` array
+- **Update path**: Change `image: './images/team/laurent-koehler.jpg'` in `teamMembers` array
 - **Size**: Optimize to 192x192px (matching current display size)
 
 ## Common Modifications

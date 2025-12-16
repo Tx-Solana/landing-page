@@ -10,5 +10,5 @@ Place team member profile photos here.
 
 ## Example:
 ```jsx
-image: '/images/team/laurent-koehler.jpg'
+image: './images/team/laurent-koehler.jpg'
 ```
